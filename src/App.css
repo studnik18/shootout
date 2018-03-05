@@ -38,5 +38,8 @@
 
 .soldier {
   width: 200px;
-  animation: flip 0.2s linear infinite;
+}
+
+.flip {
+  animation: flip 0.2s linear;
 }
