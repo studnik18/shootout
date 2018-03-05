@@ -26,3 +26,17 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+@keyframes flip {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(-1);
+  }
+}
+
+.soldier {
+  width: 200px;
+  animation: flip 0.2s linear infinite;
+}
